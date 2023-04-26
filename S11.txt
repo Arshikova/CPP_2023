@@ -1,0 +1,13 @@
+#include <iostream>
+
+using namespace std;
+int main()
+{
+int a;
+for (a = 1; a<=100; a++){ //перебрали от 0 до 100
+    if ((a%3)==0){ // находим числа массива, которые делятся да 3 без остатка 
+        cout << a << " ";
+    }
+}
+return 0;
+}
