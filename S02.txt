@@ -1,13 +1,12 @@
 #include <iostream>
-
 using namespace std;
+
 int main()
 {
-int a,b;
-a = 19;
-b = 3;
-int A = a / b; // целочисленное деление
-float B = a % b; // вычисление остатка от деления
-cout << A << '\n' << B << endl;
-return 0;
+  int a, b;
+   a = 19;
+   b = 3;
+  int A = a / b;
+  float B = a % b;
+  cout << A << '\n' << B << endl;
 }
