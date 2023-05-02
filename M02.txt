@@ -3,16 +3,15 @@
 using namespace std;
 
 int main(){
-setlocale(LC_ALL, "Russian");
-int A, N;
-cout<<"Введите сторону A: ";
-cin >> A;
-cout << "Введите число сторон N: ";
-cin >>N;
-float b, S;
-double const pi=3.14159265359;
-b=tan(pi/N);
-S=(A*A*N)/(4*b);
-cout<<"Площадь равна "<<S<<endl;
-return 0;
+  setlocale(0, "Russian");
+   int A, N;
+   cout<<"Введите сторону A: ";
+   cin >> A;
+   cout << "Введите число сторон N: ";
+   cin >>N;
+   float b, S;
+   double const pi=3.14159265359;
+     b=tan(pi/N);
+     S=(A*A*N)/(4*b);
+     cout<<"Площадь равна "<<S<<endl;
 }
