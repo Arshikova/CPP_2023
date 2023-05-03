@@ -1,16 +1,15 @@
 #include <iostream>
 using namespace std;
 
-int main()
-{
-  int a = 12; //целочисленный тип данных
-  float b = 2; //тип данных с плавающей запятой
-  string e = "t"; //символьный тип данных
-  bool f = true; // логический тип данных
-   cout<<"a="<<a<<"\n"<<"b="<<b<<"\n"<<"e="<<e<<"\n"<<"f="<<f<<endl;
-  float A = a + b;
-  float B = a / b;
-  float C = a * b;
-  float D = a - b ;
-   cout << A << "\n" << B << "\n"<< C<< "\n"<< D << endl;
+int main(){
+    int a = 12; //целочисленный тип данных
+    float b = 2; //тип данных с плавающей запятой
+    string e = "t"; //символьный тип данных
+    bool f = true; // логический тип данных
+    cout<<"a="<<a<<"\n"<<"b="<<b<<"\n"<<"e="<<e<<"\n"<<"f="<<f<<endl;
+    float A = a + b;
+    float B = a / b;
+    float C = a * b;
+    float D = a - b ;
+    cout << A << "\n" << B << "\n"<< C<< "\n"<< D << endl;
 }
