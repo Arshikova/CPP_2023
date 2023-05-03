@@ -2,10 +2,10 @@
 using namespace std;
 
 int main(){
-  int a, b;
-   a = 19;
-   b = 3;
-  int A = a / b;
-  float B = a % b;
-  cout << A << '\n' << B << endl;
+    int a, b;
+        a = 19;
+        b = 3;
+    int A = a / b;
+    float B = a % b;
+    cout << A << '\n' << B << endl;
 }
