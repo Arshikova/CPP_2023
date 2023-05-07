@@ -4,11 +4,11 @@ using namespace std;
 int main(){
     setlocale(0, "Russian");
     int s = 0;
-        for (int a = 1; a<=1000; a+=4){
-            if (a%7==0){
-                s+=a;
-}
-}
-        cout << "Сумма всех чисел, которые делятся на 7 без остатка:"<< s<< endl;
-        return 0;
-}
+    for (int a = 1; a<=1000; a+=4){
+        if (a%7==0){
+            s+=a;
+        };
+    };
+    cout << "Сумма всех чисел, которые делятся на 7 без остатка:"<< s<< endl;
+    return 0;
+};
