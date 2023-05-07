@@ -2,16 +2,21 @@
 #include <math.h>
 using namespace std;
 
+int square (int b, int c){
+    float d, S=0;
+    double const pi=3.14159265359;
+        d=tan(pi/c);
+        S=(b*b*c)/(4*d);
+        cout << "Площадь ровна:" << S << endl;
+    return S;
+};
+
 int main(){
     setlocale(0, "Russian");
-        int A, N;
-        cout<<"Введите сторону A: ";
-        cin >> A;
-        cout << "Введите число сторон N: ";
-        cin >>N;
-            float b, S;
-            double const pi=3.14159265359;
-                b=tan(pi/N);
-                S=(A*A*N)/(4*b);
-            cout<<"Площадь равна "<<S<<endl;
-}
+    int A, N;
+    cout<<"Введите сторону A: ";
+    cin >> A;
+    cout << "Введите число сторон N: ";
+    cin >>N;
+    square (A,N);
+};
