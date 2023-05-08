@@ -1,0 +1,13 @@
+#include <iostream>
+#include <fstream>
+using namespace std;
+
+int main() {
+    int n=1, a=0;
+    ifstream in("output.txt");
+    while (in >> a){
+        cout << ++n << ")  " << a << endl;
+    }
+    in.close();
+    return 0;
+}
