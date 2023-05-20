@@ -1,0 +1,26 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+float get_angle(float a,float b,float c) {
+    if (a <= 0 ||  b <= 0 || c <= 0) {
+        cout << "Длины сторон треугольника не могут быть отрицательными" << endl;
+        return -1;
+    }
+    else{
+        float cosA = (b * b + c * c - a * a)/(2 * b * c);
+        const double PI = acos(-1.0);
+        float A = acos(cosA) * 180 / PI;
+        cout << "Угол напротив первой стороны равен:" << A << endl;
+        return A;
+    }
+
+}
+
+int main(){
+    setlocale(0,"Russian");
+    float a,b,c;
+    cin >> a >> b >> c;
+    cout << get_angle(a,b,c) << endl;
+    return 0;
+}
