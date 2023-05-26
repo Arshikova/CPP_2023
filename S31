@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    setlocale(0,"Russian");
+    string a[] = {"Нуль", "Один", "Два", "Три", "Четыре", "Пять", "Шесть", "Семь", "Восемь", "Девять"};
+    int b;
+    cout << "Введите число от 0 до 9: ";
+    cin >> b;
+
+    if (b >= 0 && b <= 9){
+        cout << "Вы ввели число : " <<b[a] << endl;
+    }
+    else{
+        cout << "Число не входит в диапозон от 0 до 9" << endl;
+    }
+}
